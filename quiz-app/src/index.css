@@ -63,54 +63,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.home-content-bottom {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 70vw; /* Adjust this value to match the image's aspect ratio/height */
-  max-width: 600px;
-}
-
-@media (max-width: 600px) {
-  .home-content-bottom {
-    margin-top: 60vw;
-    max-width: 95vw;
-  }
-}
-
-.quiz-content {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50vw; /* Adjust this value to match the image's aspect ratio/height */
-  max-width: 600px;
-}
-
-@media (max-width: 600px) {
-  .quiz-content {
-    margin-top: 60vw;
-    max-width: 95vw;
-  }
-}
-
-.results-content {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50vw;
-  max-width: 600px;
-}
-
-@media (max-width: 600px) {
-  .results-content {
-    margin-top: 60vw;
-    max-width: 95vw;
-  }
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
