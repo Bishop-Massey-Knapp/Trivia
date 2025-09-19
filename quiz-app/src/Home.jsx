@@ -20,8 +20,8 @@ function Home({ setFormData }) {
 
   return (
     <div>
-      <h1>🎉 Welcome to the Quiz App</h1>
-      <p>Enter your name, pick a category and difficulty, then start your quiz!</p>
+      <h1>Ready to Flex Those Brain Cells?</h1>
+      <p>Drop your name, choose a category, set your challenge level, and let the neon showdown begin!</p>
       <form onSubmit={handleSubmit}>
         <label>
           First Name:
